@@ -1,0 +1,35 @@
+div{
+    width: 250px;
+    margin: 150px auto;
+    text-align: center;
+    box-sizing: border-box;
+    input{
+        width: 60px;
+        height: 60px;
+        margin: 5px;
+        box-sizing: border-box;
+        border: 2px solid #c31432;
+            background-image: url("51270116_361702961328897_8756108693453406208_n.png"),  linear-gradient(225deg, #1f003f 0%,#240b36 100%);
+        background-size: 100%;
+        color: #c31432;
+        font-size: 20px;
+        outline: none;
+        cursor: pointer;
+        &.last{
+            width: 80%;
+            margin-bottom: 50px;
+            &.zero{
+                width: 52%;
+            }
+        }
+        &.text{
+            height: 40px;
+            padding: 15px 5px;
+            width: 80%;
+        }
+        &.brackets{
+            width: 38%;
+        }
+
+    }
+}
